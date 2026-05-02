@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us | Dine with YASIN</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+
+    <!-- Header (Same as Always) -->
+    <header>
+        <nav class="navbar container">
+            <div class="logo"><i class="fas fa-utensils"></i> Dine with <span>YASIN.</span></div>
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="menu.html">Menu</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="contact.html" class="active">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Contact Section -->
+    <section class="contact-section container">
+        <div class="contact-grid">
+            <!-- ফর্ম সেকশন -->
+            <div class="contact-form">
+                <h2>Book a <span>Table</span></h2>
+                <form>
+                    <input type="text" placeholder="Your Name" required>
+                    <input type="email" placeholder="Your Email" required>
+                    <div class="form-group">
+                        <input type="date" required>
+                        <input type="number" placeholder="Persons" min="1" required>
+                    </div>
+                    <textarea placeholder="Special Request" rows="5"></textarea>
+                    <button type="submit" class="btn-primary">Confirm Booking</button>
+                </form>
+            </div>
+
+            <!-- ইনফো সেকশন -->
+            <div class="contact-info">
+                <h2>Contact <span>Info</span></h2>
+                <div class="info-item">
+                    <i class="fas fa-map-marker-alt"></i>
+                    <p>123 Restaurant Street, Chittagong, BD</p>
+                </div>
+                <div class="info-item">
+                    <i class="fas fa-phone"></i>
+                    <p>+880 123 456 789</p>
+                </div>
+                <div class="info-item">
+                    <i class="fas fa-clock"></i>
+                    <p>Mon - Sun: 10:00 AM - 11:00 PM</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+</body>
+</html>
