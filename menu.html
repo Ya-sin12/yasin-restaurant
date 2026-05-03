@@ -93,7 +93,17 @@
             </div>
         </div>
     </main>
- 
+ <script>
+    // মেনু টগল ফাংশন
+    const menuBtn = document.querySelector('#mobile-menu');
+    const nav = document.querySelector('.nav-links');
+
+    menuBtn.onclick = () => {
+        nav.classList.toggle('active');
+        // আইকন পরিবর্তন (bars থেকে x)
+        menuBtn.querySelector('i').classList.toggle('fa-times');
+    };
+</script>
 
 </body>
 </html>
