@@ -71,6 +71,13 @@ header {
 .nav-links a:hover, .nav-links a.active {
     color: var(--primary);
 }
+/* পিসিতে মেনু আইকন লুকানো থাকবে */
+.menu-toggle {
+    display: none;
+    cursor: pointer;
+    font-size: 1.8rem;
+    color: var(--primary);
+}
 
 /* --- ২. হিরো সেকশন --- */
 .hero {
@@ -407,5 +414,3 @@ footer {
     .nav-links li { margin: 15px 0; text-align: center; }
 }
 
-/* ৩-লাইন আইকনটি পিসি ভিউতে লুকানোর জন্য */
-.menu-toggle { display: none; }
